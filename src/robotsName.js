@@ -59,5 +59,36 @@ export const robots = [
         name: 'Clementina DuBuque',
         username: 'Moriah.Stanton',
         email: 'Rey.Padberg@karina.biz'
+    },
+    {
+        id: 11,
+        name: 'Charles Bane',
+        username: 'hanyeshaynes',
+        email: 'theCharman@hello.com'
+    },
+    {
+        id: 12,
+        name: 'Jose Cabral',
+        username: 'mrjoemen',
+        email: 'hello_there@gmail.com'
+    },
+    {
+        id: 13,
+        name: 'Nelsono Martin',
+        username: 'tHowdy',
+        email: 'tnelsonmartin@dmail.com'
+    },
+    {
+        id: 14,
+        name: 'Joseph Rivera',
+        username: 'theBoyo',
+        email: 'Jojor@mail.com'
+    },
+    {
+        id: 15,
+        name: 'Paul river',
+        username: 'Pauly',
+        email: 'substitue@dmail.com'
     }
+    
 ];

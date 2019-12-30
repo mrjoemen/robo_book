@@ -1,8 +1,11 @@
 import React, { Component } from "react";
-import { robots } from './robotsName'; // this is from the robots 
-import CardList from "./cardList"
+import { robots } from '../robotsName'; // this is from the robots 
+import CardList from "../Components/cardList";
 import 'tachyons';
-import SearchBox from "./SearchBox";
+import SearchBox from "../Components/SearchBox";
+import "./App.css";
+import "tachyons";
+import Scroll from "../Components/Scroll"
 
 
 
@@ -24,9 +27,11 @@ class App extends Component {
         });
         return (
             <div className = "tc">
-                <h1>Robo_Book</h1>
+                <h1 className ="robo_book_header">Robo_Book</h1>
                 <SearchBox searchChange = {this.onSearchChange}/> {/*App.onSearchChange */}
-                <CardList robots = {filteredBots}/> {/* we use this instead of robots because we can access it through the object "app"*/}
+               <Scroll>
+                    <CardList robots = {filteredBots}/> {/* we use this instead of robots because we can access it through the object "app"*/}
+               </Scroll>
             </div>
         );
     }

@@ -1,0 +1,13 @@
+@font-face { /*this is accessed through the .woff file that is in src*/
+    font-family: 'computer_robotregular';
+    src: url('computerrobot-vjll-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.robo_book_header {
+    font-family: 'computer_robotregular', sans-serif;
+    color: rgb(56, 115, 241);
+    font-size: 75px;
+}
